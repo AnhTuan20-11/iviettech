@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.header .icon{
+    float: left;
+    margin-right: 30px;
+}
+
+.fixed{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: -50px;
+}
+
+.fixed .go a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.fixed .go a:first-child{
+    margin:0 30px;
+}
+
+.content .header .title{
+    margin-top: 50px;
+}
+
+.bodyyy{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.bodyyy div{
+    /* text-align: center; */
+}
+
+.bodyyy .left{
+    width: 25%;
+}
+
+.bodyyy .mid{
+    width: 25%;
+}
+
+.bodyyy .right{
+    width: 35%;
+}
+.bodyyy .right a{
+    font-weight: bold;
+}
+
+.footer{
+    float: right;
+    padding-bottom: 10px;
+}
+
+.fixed .go a{
+    color: white;
+}
